@@ -1,0 +1,12 @@
+section {
+    padding: 2vw 15vw;
+}
+.main {
+    background-color: $color__background;
+}
+.section-one {
+    background-color: lighten($color__green, 20%);
+}
+.section-two {
+    background-color: $color__background;
+}
