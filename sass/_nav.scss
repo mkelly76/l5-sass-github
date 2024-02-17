@@ -1,0 +1,23 @@
+header {
+    background-color: $color__beige;
+    display: flex;
+    nav {
+     margin-left: auto;
+     }
+    .menu {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         display: flex;
+         .menu-link {
+              color: $color__purple;
+              padding: 1em;
+              display: block;
+              text-decoration: none;
+              font-family: $font__heading;
+              &:hover {
+                   background-color: lighten($color__beige, 10%);
+              }
+         }
+    }
+}
