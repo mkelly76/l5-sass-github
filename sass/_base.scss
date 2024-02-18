@@ -1,12 +1,43 @@
 section {
-    padding: 2vw 15vw;
+    padding: 2vw 10vw 7vw;
 }
 .main {
     background-color: $color__background;
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        align-content: center;
+        gap: 10px;
+    }
 }
 .section-one {
     background-color: lighten($color__green, 20%);
 }
 .section-two {
     background-color: $color__background;
+}
+img {
+    border: 5px double $color__purple;
+    border-radius: 5px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5vw;
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+}
+.container {
+    padding: 2px 16px;
+    text-align: center;
 }

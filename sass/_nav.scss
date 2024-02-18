@@ -1,7 +1,10 @@
 header {
-    background-color: $color__beige;
+    background-color: transparent;
     display: flex;
+    position: fixed;
+    width: 100%;
     nav {
+     padding: 0 2vw;
      margin-left: auto;
      }
     .menu {
@@ -10,13 +13,19 @@ header {
          margin: 0;
          display: flex;
          .menu-link {
-              color: $color__purple;
+              color: white;
+              text-shadow:
+              1.25px 1.25px 0 $color__purple,
+              -0.75px -0.75px 0 $color__purple,  
+              0.75px -0.75px 0 $color__purple,
+              -0.75px 0.75px 0 $color__purple,
+               0.75px 0.75px 0 $color__purple;
               padding: 1em;
               display: block;
               text-decoration: none;
               font-family: $font__heading;
               &:hover {
-                   background-color: lighten($color__beige, 10%);
+                   color: lighten($color__purple, 20%);
               }
          }
     }
