@@ -1,5 +1,11 @@
 section {
-    padding: 2vw 10vw 7vw;
+    padding: 2vw calc($bar__width + $hamburger__margin *2) 7vw;
+    h2 {
+        float: right;
+    }
+    h1 {
+        text-align: center;
+    }
 }
 .main {
     background-color: $color__background;

@@ -11,3 +11,11 @@ $color__background: #fce8d9;
 
 $color__link: $color__blue;
 $color__link-hover: darken($color__blue, 15%);
+
+$bar__width: 30px;
+$bar__height: 4px;
+$hamburger__gap: 3px;
+$hamburger__margin: 20px;
+$animation__timing: 200 ms ease-in-out;
+$hamburger__height: calc($bar__height * 3 + $hamburger__gap * 2);
+$x__width: calc($hamburger__height * 1.41421356237);
